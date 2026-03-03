@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device width,initialscale=1.0">
+            <title>ENGENHARIA DE SOFTWARE - UML</title>
+            <style>
+                body{
+                    font-family: Arial,sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f2f6fc;
+                }
+                header{
+                    background-color: #2f5aa8;
+                    color: white;
+                    text-align: center;
+                    padding: 15px;
+                }
+
+                nav{
+                    background-color: #1f3c88;
+                    padding:10px;
+                    text-align: center;
+                }
+                nav a{
+                      color: #ffffff;          /* texto branco */
+                      text-decoration: none;   /* tira o sublinhado */
+                      margin-right: 15px;      /* espaço entre os links */
+                      font-weight: bold;
+                      padding: 6px 10px;       /* área de clique maior */
+                      border-radius: 4px; 
+                }
+
+                section{
+                    padding: 20px;
+                }
+                fieldset {
+                    border: 2px solid #2f5aa8;
+                    border-radius: 8px;
+                    padding: 20px;
+}
+
+                legend {
+                   font-weight: bold;
+                   color: #2f5aa8;
+                   padding: 0 10px;
+}
+                form{
+                    background-color: #ffffff;
+                    max-width: 600px;
+                    margin: 40px auto;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                img{
+                    margin:20px auto;
+                    max-width: 400px;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="header">
+        <header>
+        <h1>  UML </h1>
+        <p>Está pagína abordará conceitos de UML estudados na disciplina de Engenharia de Software durante o segundo semestre </p>
+        </header>
+        </div>
+
+    <nav>
+        <a href="#intro"target="_self">Introdução</a>
+        <a href="#hist"target="_self">História </a>
+        <a href="#carac"target="_self">Características</a>
+        <a href="#dia"target="_self">Diagramas </a>
+        <a href="#doc"target="_self">Documentação </a>
+        <a href="#mod"target="_self">Quando modelar o sistema</a>
+        <a href="#bene"target="_self">Quem se beneficia </a>
+        <a href="#usa"target="_self">Quando usar</a>
+    </nav>
+        <div id="main">
+            <section id="intro">
+        <h2>INTRODUÇÃO A UML</h2>
+        <ul>
+        <li>Linguagem padrão para modelagem de sistemas de software.</li>
+            <li>Utilizada para visualização, especificação, construção e documentação.</li>
+            <li>Facilita a comunicação entre desenvolvedores e stakeholders.</li>
+            <li>Não é uma linguagem de programação, mas sim de modelagem.</li>
+           <li> Auxilia na definição de requisitos, comportamento, estrutura lógica, dinâmica dos processos e necessidades físicas do sistema.</li>
+           <li> Promove a clareza do escopo e ajuda a eliminar ruídos na comunicação.</li>
+            <li>Atua como uma linguagem universal entre os profissionais de software.</li>
+        </ul>
+    </section>
+
+    <section id="hist">
+        <h2>HISTÓRIA DA UML</h2>
+        <ul>
+            <li>Desenvolvida por Grady Booch, Ivar Jacobson e James Rumbaugh na Rational Software (adquirida pela IBM).</li>
+            <li>Adotada como padrão pela OMG (Object Management Group) em 1997.</li>
+            <li>Tornou-se um padrão ISO em 2005.</li>
+        </ul>
+    </section>
+
+    <section id="carac">
+        <h2>CARACTERÍSTICAS DA UML</h2>
+        <ul>
+            <li>Não depende do domínio de aplicação.</li>
+            <li>Não está vinculada a um processo ou metodologia de desenvolvimento específico.</li>
+            <li>Não está limitada às ferramentas de modelagem utilizadas.</li>
+        </ul>
+        </section>
+<section id="dia">
+        <h2>DIAGRAMAS DA UML</h2>
+       <img src="https://th.bing.com/th/id/R.7dfca68c5ad5be1029a18646ac69366d?rik=dXOQFJoXEex2Pw&riu=http%3a%2f%2feufacoprogramas.com%2fwp-content%2fuploads%2f2011%2f05%2fcaso-de-uso-geral-uml-resumo.jpeg&ehk=YthbqKP4zwX4H%2b77IfMv%2bE0e%2fPn5x8gd0PlJQ8PMIMU%3d&risl=&pid=ImgRaw&r=0"
+       alt="Diagrams de casos da UML">
+        <ul>
+            <li>Estruturais (Estáticos): Descrevem a estrutura do sistema (ex: diagrama de classes, componentes).</li>
+            <li>Comportamentais (Dinâmicos): Capturam o comportamento do sistema (ex: diagrama de casos de uso, sequência).</li>
+        </ul>
+
+        <h3>EXEMPLO DE DIAGRAMAS ESTRUTURAIS </h3>
+        <ul>
+            <li>Classes</li>
+            <li>Objetos</li>
+            <li>Pacotes</li>
+            <li>Componentes</li>
+            <li>Implantação</li>
+        </ul>
+
+        <h3>EXEMPLO DE DIAGRAMAS COMPORTAMENTAIS </h3>
+        <ul>
+            <li>Caso de Uso</li>
+            <li>Sequência</li>
+            <li>Comunicação</li>
+            <li>Atividade</li>
+            <li>Visão Geral de Interação</li>
+        </ul>
+</section>
+
+
+<section id="doc">
+        <h2>DOCUMENTAÇÃO COM UML</h2>
+        <ul>
+            <li>Fornece uma maneira estruturada de <mark>documentar requisitos, design e arquitetura</mark>.</li>
+            <li>Facilita a manutenção e evolução do sistema.</li>
+        </ul>
+</section>
+
+<section id="mod">
+        <h2>QUANDO MODELAR O SISTEMA</h2>
+        <ul>
+            <li>Após a aquisição dos requisitos e com base neles.</li>
+            <li>Antes do início da implementação do sistema.</li>
+        </ul>
+</section>
+
+
+<section id="bene">
+        <h2>QUEM SE BENEFICIA DA UML</h2>
+        <ul>
+            <li>Proprietário do Produto</li>
+            <li>Analista de Negócios</li>
+            <li>Analista de Sistemas</li>
+            <li>Operadores do Sistema</li>
+            <li>Desenvolvedor / Programador</li>
+            <li>Gerentes de Qualidade</li>
+        </ul>
+        </section>
+
+        <section id="usa">
+        <h2>QUANDO USAR UML</h2>
+        <ul>
+            <li>Definir claramente o desejo do cliente.</li>
+            <li>Visão única e padronizada da equipe.</li>
+            <li>Comunicar protocolos de interfaces.</li>
+            <li>Ilustrar topologias arquitetônicas.</li>
+        </ul>
+</section>
+
+<form >
+    <fieldset>
+        <legend>AVALIE O CONTEÚDO</legend>
+        <label>O conteúdo ficou claro ?</label><br>
+        <input type="radio" name="clareza" value="sim" > Sim 
+        <input type="radio" name="clareza" value="parcial" > Parcialmente
+        <input type="radio" name="clareza" value="não">  Não<br><br>
+
+        <label>O material ajudou no entendimento de UML ?</label><br>
+        <select name="entendimento">
+            <option>Muito</option>
+            <option >Razoável</option>
+            <option>Pouco</option>
+        </select><br><br>
+
+        <label>De uma nota ao material(0 a 10)</label><br>
+        <input type="number" min="0" max="10"><br><br>
+
+        <label >Comentário ou sugestão</label><br>
+       <textarea rows="4" cols="40"></textarea><br><br>
+       
+    
+       <input type="submit" value="Enviar avaliação">
+
+    </fieldset>
+</form>
+
+    </body>
