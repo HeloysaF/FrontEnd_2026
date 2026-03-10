@@ -1,0 +1,146 @@
+
+body{   
+     background-color: #0f172a;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 20px;
+     margin: 0;
+    }
+
+    #pagina{
+       max-width: 1000px; 
+       margin: auto;
+    }
+
+    #topo{
+        font-family:'Times New Roman', Times, serif ;
+        background-color: #1e293b;
+        padding: 30px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    nav{
+        background-color: #334155;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    nav ul{
+     /* Tira o ponto de lista*/
+      list-style: none; 
+      padding: 0;
+    }
+    
+   nav li{
+    display: inline;      /* coloca itens lado a lado */
+    margin-right: 15px;   /* cria espaço entre eles */
+   }
+
+   nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s;
+}
+   nav a:hover{
+    /*Cria uma linha abaixo do menu*/
+    border-bottom: 2px solid #38bdf8;
+   }
+
+   section{
+    background-color: #1e293b;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 10px;
+   }
+
+   section h2{
+    border-bottom: 2px solid #38bdf8; /*Cria uma linha embaixo do título.*/
+    padding-bottom: 5px; /*cria espaço entre o texto e a linha.*/
+    margin-bottom: 20px; /*cria espaço entre o título e o conteúdo abaixo.*/
+    transition: 0.3s;/*Faz crescer */
+   }
+
+   section h2:hover{
+    color: #38bdf8;
+   }
+
+   article{
+    background-color: #1e293b;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid #38bdf8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+   }
+
+   /*Quando passa o mouse o card cresce um pouco e muda a cor*/
+  article:hover{
+    transform: scale(1.03);
+    border-left: 5px solid #22c55e;
+    box-shadow: 0 0 15px #22c55e;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse; /*Junta as bordas da tabela para não ficar duas linhas separadas. */
+    margin-top: 20px;
+}
+
+th, td{
+    border: 1px solid #334155;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #1e293b;
+    color: #38bdf8;
+}
+
+tr:nth-child(even){
+    background-color: #0f172a;/*cria linhas alternadadas da cor*/
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #334155;
+}
+
+input[type="submit"]{
+    background-color: #38bdf8;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background-color: #22c55e;
+}
+
+fieldset{
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer{
+    background-color: #1e293b;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: #94a3b8;
+}
