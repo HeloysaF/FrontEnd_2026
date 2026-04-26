@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Avaliação Prática de FrontEnd</title>
+        <style>
+            body{
+                background:#FDF6EC ;
+                margin: 20px;
+            }
+            h1{ 
+                 width: 100%;
+                text-align: center;
+            }
+        .container{
+            display: flex;
+            flex-direction: column; /* um embaixo do outro */
+             align-items: center;      /* centraliza horizontalmente */
+             gap: 20px;
+}
+.grupo {
+    background:#D6EAF8;
+    padding: 15px;
+     border-radius: 10px;
+    width: 1000px; /* importante pra centralizar bonito */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+summary {
+    background-color: #6EC1E4;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+summary:hover {
+    background-color: #4FA3C7;
+}
+.btn{
+    background-color: #6EC1E4; /* azul clarinho */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #4FA3C7;
+}
+
+
+        
+</style>
+    </head>
+    <body>
+        <h1>GRUPOS E FATOS </h1>
+
+        <div class="container">
+            <div class="grupo" id="a">
+                <h2>Grupo A</h2>
+                <h4>Seleções</h4>
+                <ul>
+                    <li>México</li>
+                    <li>África do Sul</li>
+                    <li>Coreia do Sul</li>
+                    <li>República Tcheca</li>
+                </ul>
+                <details>
+                    <summary>Saiba mais</summary>
+                    <p><strong>Fatos:</strong>O jogo de abertura será México x África do Sul. Confrontos entre Coreia do Sul e seleções 
+                europeias já ocorreram em várias Copas, com histórico equilibrado.</p>
+            </details>
+            </div>
+
+            <div class="grupo" id="b">
+                <h2>Grupo B</h2>
+                <h4>Seleções</h4>
+                <ul>
+                    <li>Canadá</li>
+                    <li>Suíça</li>
+                    <li>Catar</li>
+                    <li>Vaga Europeia (Bósnia)</li>
+                </ul>
+                <details>
+                    <summary>Saiba Mais</summary>
+                    <p><strong>Fatos:</strong> O Canadá joga em casa, fator importante de desempenho. Catar e Suíça já se enfrentaram recentemente em amistosos internacionais.</p></details>
+            </div>
+
+            <div class="grupo" id="c">
+                <h2>Grupo C</h2>
+                <h4>Seleções</h4>
+                <ul>
+                    <li>Brasil</li>
+                    <li>Marrocos</li>
+                    <li>Haiti</li>
+                    <li>Escócia</li>
+                </ul>
+                <details>
+                    <summary>Saiba Mais</summary>
+                    <p><strong>Fatos</strong> Brasil, Marrocos e Escócia já dividiram grupo em 1998. Brasil nunca perdeu para a Escócia em Copas.</p></details>
+            </div>
+            <button class="btn" onclick="alterna()">Proximo</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
