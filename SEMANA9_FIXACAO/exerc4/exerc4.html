@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Taxas Infinity Bank</title>
+    <style>
+      .topo{
+        text-align:center
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topo">
+      <h2>Taxas Infinity Bank</h2>
+      <label for="bandeira">Bandeira:</label>
+
+      <select name="bandeira" id="bandeira">
+        <option value="visa">VISA</option>
+        <option value="master">MASTER</option>
+        <option value="elo">ELO</option>
+      </select>
+        
+      <input type=number id="valor" placeholder="Valor">
+        <input type=number id="parcelas" placeholder="Quantidade de parcelas ">
+      <button onclick="calcula()">Calcula Taxa </button>
+      <div id="resultado"></resultado>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
